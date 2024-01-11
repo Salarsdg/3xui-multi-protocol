@@ -9,7 +9,7 @@ public class MultiProtocolContext : DbContext
 
     public MultiProtocolContext()
     {
-        var folder = "/etc/x-ui/";
+        var folder = "/opt/freedom/x-ui/db/";
         DbPath = System.IO.Path.Join(folder, "x-ui.db");
     }
 
